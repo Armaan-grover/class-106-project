@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <title>Sound Identification Web App Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@600&family=Fascinate&family=Kalam:wght@700&family=Rampart+One&family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <center>
+    <div id="div1">
+      <h1>Sound controlled animals</h1>
+      <h3>Play different sound suh as a bark, moo,meow or a roar.</h3>
+      <p id="Numb4dog">Number of dog sounds -</p>
+      <p id="Numb4cat">Number of cat sounds - </p>
+      <p id="Numb4cow">Number of cow sounds - </p>
+      <p id="Numb4goose"> Number of geese sounds - </p>
+    </div>
+    <br>
+    <br>
+    <div id="div2">
+      
+      <hr>
+<br>
+<br>
+
+
+    <img id="image" src="th.jpg">
+    <br>
+    <br>
+    <button id="startButton" onclick="listen()" class="btn btn-warning">Click to start</button>
+<hr>
+      <div id="noise"></div>
+      <div id="accuracy"></div>
+    </div>
+    <div id="div3">
+      <p>Developed by Armaan Grover</p>
+    </div>
+  </center>
+  
+</body>
+
+</html>
